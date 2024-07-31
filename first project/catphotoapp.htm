@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatApp</title>
+</head>
+<body>
+    <main>
+     <h1>CatPhotoApp</h1>
+     <h2>Cat Photos</h2>
+    <p>See more <a href="#">Cat Photos</a> in our gallery.</p>
+    <image src="cat.png" alt="back picture of cat" width="100px"></image>
+    <h2>Cat Lists</h2>
+    <big><b>Things Cat Love:</b></big>
+    <ul>
+        <li>Cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+    </ul>
+    <pre>    <image src="lasagna.png" alt="lasagna" width="100px"></image><br><p>    Cats <i>love</i> lasagna</p></pre> 
+    <big><b>Top 3 things Cat hate:</b></big>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+    <pre>    <image src="cats.png" alt="cat family" width="100px"></image><br><p>    Cats <b>hate</b> other cats</p></pre>
+    <h2>Cat Form</h2>
+    <form action="/submit.php" method="post"> 
+        
+        <fieldset>
+            <legend>Is your cat an indoor or outdoorcat?</legend>
+            <label for="indoor">indoor</label>
+            <input type="radio" name="indoor/outdoor" value="Indoor">
+            <label for="outdoor">Outdoor</label><input type="radio" name="indoor/outdoor" value="outdoor">
+        </fieldset>
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
+        </label for="loving">loving</label>
+        <input type="checkbox" name="personality" id="loving" value="loving">
+        <label for="lazy">lazy</label>
+        <input type="checkbox" name="personality" id="lazy" value="lazy">
+        <label for="energetic">energetic</label>
+        <input type="checkbox" name="personality" id="energetic" value="energetic">
+    </fieldset>
+                    
+        <label for="url"></label>
+        <input type="url" id="cat_url" placeholder="cat photo URL">
+        <input type="submit">   
+    </form>
+    </main>
+    <footer>
+        <p>No copyright -<a href="#">freeCodeCamp.org</a></p>
+    </footer>
+</body>
+</html>
